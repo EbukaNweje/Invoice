@@ -13,7 +13,7 @@ const Invoice = () => {
     let PricePut = price
     
     let Anw = QutPrice * PricePut
-    let AllInvoice = JSON.parse(localStorag.getItem("InvoiceData")) || [];    
+    let AllInvoice = JSON.parse(localStorage.getItem("InvoiceData")) || [];    
     // console.log(data)
 
     let Id = Date.now()
